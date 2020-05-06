@@ -1,0 +1,21 @@
+[
+    {
+        "title": "German Shepherd",
+        "desc": "large loyal dog",
+        "hours": "Mon - Fri 7am - 5:30pm",
+        "images":[
+            "blue.jpg"
+         ]
+
+    },
+    {
+        "title": "Border collie",
+        "desc": "smart agile dog",
+        "hours": "Mon - Fri 7am - 5:30pm",
+        "images":[
+            "blue.jpg"
+         ]
+
+    }
+]
+
