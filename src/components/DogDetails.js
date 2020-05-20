@@ -14,7 +14,7 @@ function DogDetails(props) {
 
       <div>
         <h1>{ title }</h1>
-        <p>{ breed }</p>
+              <p>{ breed }</p>
         <p>{ desc }</p>
   
         <p>{ friend }</p>
