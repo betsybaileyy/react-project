@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footer">
-      <h1>SFPOPOS</h1>
+      <h2>"Be the person your dog thinks you are" -C.J. Frick</h2>
     </div>
   )
 }

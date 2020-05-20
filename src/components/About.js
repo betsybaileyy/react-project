@@ -3,13 +3,8 @@ import React from 'react'
 function About() {
   return (
     <div>
-      <h1>About SFPOPOS</h1>
-      <p>POPOS are publicly accessible spaces in
-        forms of plazas, terraces, atriums, small
-        parks, and even snippets which are provided
-        and maintained by private developers. In San
-        Francisco, POPOS mostly appear in the Downtown
-        office district area.</p>
+      <h1>What Makes Dogs So Great?</h1>
+      <p>These loyal companions make our lives so much richer and fuller!</p>
     </div>
   )
 }

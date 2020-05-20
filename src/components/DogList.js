@@ -1,26 +1,26 @@
 import React from 'react';
-import POPOSSpace from './POPOSSpace';
-import './POPOSList.css';
+import DogSpace from './DogSpace';
+import './DogList.css';
 import data from './dogs.json'
 
-function POPOSList() {
+function DogList() {
 
-  const spaces = data.map(( { title, address, images, hours }, i ) => {
+  const spaces = data.map(( { title, breed, images, desc }, i ) => {
   
     return (
-      <POPOSSpace
+      <DogSpace
         id={i}
         key={title} 
         name={title}
-        address={address}
+        breed={breed}
         image={images[0]}
-        hours = {hours}
+        desc={desc}
       />
     )
   })
 
   return (
-    <div className="POPOSList">
+    <div className="DogList">
       { spaces }
     </div>
   )
@@ -29,31 +29,31 @@ function POPOSList() {
 //   return <h1>{obj.title}</h1>
 // })
 
-// function POPOSList() {
+// function DogList() {
 //   return (
-//     <div className="POPOSList">
+//     <div className="DogList">
 //         { titles }
-//       <POPOSSpace 
+//       <DogSpace 
 //               name="50 California Street"
 //               address="50 California St."
 //               image="blue.jpg"
 //       />
-//       <POPOSSpace 
+//       <DogSpace 
 //               name="50 California Street"
 //               address="50 California St."
 //               image="blue.jpg"
 //       />
-//             <POPOSSpace 
+//             <DogSpace 
 //         name="50 California Street"
 //         address="50 California St."
 //         image="blue.jpg"
 //       />
-//       <POPOSSpace 
+//       <DogSpace 
 //               name="50 California Street"
 //               address="50 California St."
 //               image="blue.jpg"
 //       />
-//       <POPOSSpace 
+//       <DogSpace 
 //               name="50 California Street"
 //               address="50 California St."
 //               image="blue.jpg"
@@ -67,4 +67,4 @@ function POPOSList() {
 
 // console.log(titles)
 
-export default POPOSList
+export default DogList

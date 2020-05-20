@@ -2,9 +2,9 @@ import React from 'react'
 
 import data from './dogs.json'
 
-function POPOSDetails(props) {
+function DogDetails(props) {
   const { id } = props.match.params // Location index
-  const { images, title, desc, hours, features, geo } = data[id]
+  const { images, title, desc, breed, friend  } = data[id]
 
   return (
     <div>
@@ -14,14 +14,15 @@ function POPOSDetails(props) {
 
       <div>
         <h1>{ title }</h1>
+        <p>{ breed }</p>
         <p>{ desc }</p>
-        <p>{ hours }</p>
-        <p>{ features }</p>
-        <p>{ geo.lat } { geo.lon }</p>
+  
+        <p>{ friend }</p>
+
       </div>
 
     </div>
   )
 }
 
-export default POPOSDetails
+export default DogDetails

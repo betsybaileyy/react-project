@@ -2,38 +2,38 @@ import { HashRouter as Router, Route } from 'react-router-dom'
 import React from 'react';
 import './App.css';
 import Title from '../components/Title';
-import POPOSList from '../components/POPOSList';
-import POPOSSpace from '../components/POPOSSpace';
+import DogList from '../components/DogList';
+import DogSpace from '../components/DogSpace';
 import Footer from '../components/Footer.js';
 import About from './About'
-import POPOSDetails from '../components/POPOSDetails'
+import DogDetails from '../components/DogDetails'
 
 function App() {
   return (
     <Router>
     <div className="App">
       <Title />
-      <Route exact path="/" component={POPOSList}/>
+      <Route exact path="/" component={DogList}/>
       <Route path="/about" component={About} />
-      <Route path="/details/:id" component={POPOSDetails} />
+      <Route path="/details/:id" component={DogDetails} />
 
-      <POPOSList />
-      <POPOSSpace />
-      <POPOSSpace />
-      <POPOSSpace />
-      <POPOSSpace />
+      {/* <DogList />
+      <DogSpace />
+      <DogSpace />
+      <DogSpace />
+      <DogSpace /> */}
       <Footer />
     </div>
     </Router>
   );
 }
-// function POPOSSpace() {
+// function DogSpace() {
 //   return (
 //     <div>
-//       <POPOSSpace />
-//       <POPOSSpace />
-//       <POPOSSpace />
-//       <POPOSSpace />
+//       <DogSpace />
+//       <DogSpace />
+//       <DogSpace />
+//       <DogSpace />
 //     </div>
 //   )
 // }

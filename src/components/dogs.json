@@ -1,21 +1,64 @@
 [
     {
-        "title": "German Shepherd",
-        "desc": "large loyal dog",
-        "hours": "Mon - Fri 7am - 5:30pm",
+        "title": "Margaux",
+        "breed": "Great Pyrenees & Lab mix",
+        "desc": "Margaux loves to take long naps and bark at potential intruders",
+        "friend": "Margaux is my dog :)",
         "images":[
-            "blue.jpg"
+            "Margaux.jpg"
          ]
 
     },
     {
-        "title": "Border collie",
-        "desc": "smart agile dog",
-        "hours": "Mon - Fri 7am - 5:30pm",
+        "title": "Eloise",
+        "breed": "German Shepherd Dog",
+        "desc": "Eloise loves a good ear scratch",
+        "friend": "Eloise is my dog :)",
         "images":[
-            "blue.jpg"
+            "Eloise.jpg"
+         ]
+
+    },
+    {
+        "title": "Blair",
+        "breed": "Lab & Border Collie mix",
+        "desc": "Blair is highly energetic and always willing to play frisbee with you!",
+        "friend": "Blair belongs to my friend Emiley",
+        "images":[
+            "Blair.jpg"
+         ]
+
+    },
+    {
+        "title": "Presley",
+        "breed": "Australian Cattle Dog & Great Pyrenees Mix",
+        "desc": "Presley is a sweet girl who loves to take naps and get a good belly rub.",
+        "friend": "Presley belongs to my friend, Emiley",
+        "images":[
+            "Presley.jpg"
+         ]
+
+    },
+    {
+        "title": "Marley",
+        "breed": "Poodle & Terrier Mix",
+        "desc": "Marley is a sweet dog with an underbite. Shes always happy to meet new people!",
+        "friend": "Marley belongs to my friend Peyton",
+        "images":[
+            "Marley.jpg"
+         ]
+
+    },
+    {
+        "title": "Pearl",
+        "breed": "Black Lab",
+        "desc": "Pearl is an energetic and loving dog who loves to be pet!",
+        "friend": "Pearl belongs to my friend Bess",
+        "images":[
+            "Pearl.jpg"
          ]
 
     }
+
 ]
 

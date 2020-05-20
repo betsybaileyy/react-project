@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
-import './POPOSSpace.css';
+import './DogSpace.css';
 
-function POPOSSpace(props) {
+function DogSpace(props) {
   const { name, image, address, hours, id } = props
   return (
-    <div className="POPOSSpace">
+    <div className="DogSpace">
 <Link to={`/details/${id}`}>
   <img src={`${process.env.PUBLIC_URL}images/${image}`} width="300" height="300" alt="Hello" />
 </Link>      
@@ -18,4 +18,4 @@ function POPOSSpace(props) {
   )
 }
 
-export default POPOSSpace
+export default DogSpace
